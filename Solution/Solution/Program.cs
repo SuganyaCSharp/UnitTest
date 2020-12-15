@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace Solution
+namespace solution
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var solution = new Solution();
+            Console.WriteLine(solution.ToBinary(37));
         }
     }
 }
